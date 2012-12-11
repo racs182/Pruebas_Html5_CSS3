@@ -3,42 +3,50 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Dia 1 HTML5 / CSS3</title>
-<link rel="stylesheet" href="">
-<script src=""></script>
-<link rel="stylesheet" href="css/dia1.css">
-<!--[if lt IE 9]>
-<script src="dist/html5shiv.js"></script>
-<![endif]-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- Mejor que reset ya que no solo reseta sino asigna algunos valores base-->
+
+	<link rel="stylesheet" href="css/dia1.css">
+	<!--[if lt IE 9]>
+	<script src="dist/html5shiv.js"></script>
+	<![endif]-->
 </head>
 <body>
-	
-	<!--Estructura Básica del Site Utilizando HTML5 --> 
+
+	<!--Estructura Básica del Site Utilizando HTML5 -->
 	<header></header>
+	<!-- Cabecera -->
 	<section id="main">
 		<article>
-			<hgroup>
-				<h1>Titulo principal</h1>
-				<h2>Titulo secundario</h2>
-			</hgroup>
-			<time datetime="2012/12/12"> 3 de diciembre 2000</time>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			<header>
+				<hgroup>
+					<h2>Titulo principal</h2>
+					<h3>Titulo secundario</h3>
+				</hgroup>
+				<time datetime="2012/12/12">3 de Diciembre 2000</time>
+			</header>
+			<p>
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+			</p>
+			<img src="http://placehold.it/350x150">
 			<span>Autor:Juan Perez</span>
 		</article>
 		<article>
-			<hgroup>
-				<h1>Titulo principal</h1>
-				<h2>Titulo secundario</h2>
-			</hgroup>
-			<time datetime="2012/12/12"> 3 de diciembre 2000</time>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			<header>
+				<hgroup>
+					<h2>Titulo principal</h2>
+					<h3>Titulo secundario</h3>
+				</hgroup>
+				<time datetime="2012/12/12">3 de diciembre 2000</time>
+			</header>
+			<p>
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+			</p>
+			<img src="http://placehold.it/350x150">
 			<span>Autor:Juan Perez</span>
 		</article>
 	</section>
-	<section id="sidebar">
-		
-	</section>
-	<footer>
-		
-	</footer>
+	<section id="sidebar"></section>
+	<footer></footer>
 </body>
 </html>
