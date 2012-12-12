@@ -1,78 +1,159 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-	<meta charset="UTF-8">
-	<title>Titulo del Site</title>
-	<link rel="stylesheet" href="css/normalize.css">
+  <meta charset="UTF-8">
+  <title>Titulo del Site</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/dia2.css">
+  <!--[if lt IE 9]>
+  <script src="dist/html5shiv.js"></script>
+  <![endif]-->
 </head>
 <body>
-	<header>
-		<h1 role="banner">TITULO GENERAL SITE</h1>
-	<nav role="navigation">
-		<ul>
-			<li><a href="#">enlace</a></li>
-			<li><a href="#">enlace</a></li>
-			<li><a href="#">enlace</a></li>
-			<li><a href="#">enlace</a></li>
-			<li><a href="#">enlace</a></li>
-		</ul>
-	</nav>
-</header>
-	<!-- content -->
-	<section id="main" role="main">
-		<header>
-			<article>
-				<header>
-					<hgroup>
-						<h1>Titulo Articulo 1</h1>
-						<h2>Titulo secundario art 1</h2>
-					</hgroup>
-					<time datetime="2012/12/12"> FECHA 3 de Diciembre 2000</time>
-					<span>AUTOR 	Juan Perez</span>
-				</header>
-				<p> P1 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-				</p>
-				<p> P2 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-				<aside><a href="#">ASIDE ipsum dolor sit am</a></aside>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<footer>PIE Todos los derechos reservados</footer>
-			</article>
-			<article>
-				<header>
-					<hgroup>
-						<h1>Titulo Articulo 2</h1>
-					</hgroup>
-					<time datetime="2012/12/12">FECHA 3 de Diciembre 2000</time>
-					<span>AUTOR	Juan Perez</span>
-				</header>
-				<p>P1 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-				<p>P2 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-				<footer> PIE Todo los redechos reservados</footer>
-			</article>
-		</header>
-		<footer></footer>
-	</section>
-	<!--sidebar -->
-	<section id="sidebar" role="complementary">
-		<header>
-			<hgroup>
-				<h1>Titulo Side</h1>
-			</hgroup>
-		</header>
-		<nav role="navigation">
-			<ul>
-				<li>lista 1<br><a href="#"></a></li>
-				<li>lista 2<br><a href="#"></a></li>
-				<li>lista 3<br><a href="#"></a></li>
-			</ul>
-		</nav>
-		<banner><img src="http://placehold.it/140x100"></banner>
-	</section>
-	<footer>PIE SITE de pagina del site</footer>
+  <div id="page" role="application">
+    <header>
+      <h1 role="banner">TITULO GENERAL SITE</h1>
+      <nav role="navigation">
+        <ul>
+          <li>
+            <a href="#">enlace</a>
+          </li>
+          <li>
+            <a href="#">enlace</a>
+          </li>
+          <li>
+            <a href="#">enlace</a>
+          </li>
+          <li>
+            <a href="#">enlace</a>
+          </li>
+          <li>
+            <a href="#">enlace</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- content -->
+
+    <section id="main" role="main">
+      <article>
+        <header>
+          <hgroup>
+            <h1>Titulo Articulo 1</h1>
+            <h2>Titulo secundario art 1</h2>
+          </hgroup>
+          <time datetime="2012/12/12">FECHA 3 de Diciembre 2000</time>
+          <span>
+            AUTOR   Juan Perez
+          </span>
+        </header>
+        <p>
+          P1 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+        <p>P2 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        <aside>
+          <a href="#">ASIDE ipsum dolor sit am</a>
+        </aside>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <footer>PIE Todos los derechos reservados</footer>
+      </article>
+      <article>
+        <header>
+          <hgroup>
+            <h1>Titulo Articulo 2</h1>
+          </hgroup>
+          <time datetime="2012/12/12">FECHA 3 de Diciembre 2000</time>
+          <span>
+            AUTOR Juan Perez
+          </span>
+        </header>
+        <p>
+          P1 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+        <p>
+          P2 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+        <footer>PIE Todo los redechos reservados</footer>
+      </article>
+      <section>
+        <header>
+          <h3>Formulario en html5</h3>
+        </header>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Titulo del Form</legend>
+
+            <div class="campo">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre"></div>
+
+            <div class="campo">
+              <label for="correo">Correo</label>
+              <input type="email" id="correo" name="correo"></div>
+
+            <div>
+              <label for="telefono">Telefono</label>
+              <input type="tel" id="telefono" name="telefono"></div>
+            <div>
+
+              <label for="edad">Edad</label>
+              <input type="number" min="18" max="30" step="2" id="edad" name="edad"></div>
+            
+
+            <div class="action">
+              <input type="submit" value="Guardar o Enviar"></div>
+
+          </fieldset>
+
+        </form>
+        <footer> <b>Nota</b>
+          de pie de pagina los form no son soportados por browser antiguas IE6
+        </footer>
+      </section>
+      <footer role="contentinfo">FOOTER</footer>
+    </section>
+
+    <!--sidebar -->
+
+    <section id="sidebar" role="complementary">
+      <header>
+        <hgroup>
+          <h1>Titulo Sidebar</h1>
+        </hgroup>
+      </header>
+      <nav role="navigation">
+        <ul>
+          <li>
+            lista 1
+            <br>
+            <a href="#"></a>
+          </li>
+          <li>
+            lista 2
+            <br>
+            <a href="#"></a>
+          </li>
+          <li>
+            lista 3
+            <br>
+            <a href="#"></a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- pie -->
+    <footer class="footer">
+      <p>PIE SITE de pagina del site</p>
+    </footer>
+  </div>
 </body>
 </html>
