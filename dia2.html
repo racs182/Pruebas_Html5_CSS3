@@ -1,166 +1,183 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+<!doctype html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Titulo del Site</title>
+  <title>Dia 2</title>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/dia2.css">
+
+  <link rel="stylesheet" href="http://jquerytools.org/media/css/dateinput/skin1.css">
+
   <!--[if lt IE 9]>
-  <script src="dist/html5shiv.js"></script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
 <body>
   <div id="page" role="application">
     <header>
-      <h1 role="banner">TITULO GENERAL SITE</h1>
+      <h1 role="banner">Titulo de site</h1>
       <nav role="navigation">
         <ul>
-          <li>
-            <a href="#">enlace</a>
-          </li>
-          <li>
-            <a href="#">enlace</a>
-          </li>
-          <li>
-            <a href="#">enlace</a>
-          </li>
-          <li>
-            <a href="#">enlace</a>
-          </li>
-          <li>
-            <a href="#">enlace</a>
-          </li>
+          <li><a href="#">enlace</a></li>
+          <li><a href="#">enlace</a></li>
+          <li><a href="#">enlace</a></li>
+          <li><a href="#">enlace</a></li>
+          <li><a href="#">enlace</a></li>
         </ul>
       </nav>
     </header>
-
-    <!-- content -->
-
+  
     <section id="main" role="main">
+      <header>
+        <h1> Titulo h1</h1>
+      </header>
       <article>
         <header>
           <hgroup>
-            <h1>Titulo Articulo 1</h1>
-            <h2>Titulo secundario art 1</h2>
+            <h1>Curso de HTML5/CSS3</h1>
+            <h2>Subtitulo</h2>
           </hgroup>
-          <time datetime="2012/12/12">FECHA 3 de Diciembre 2000</time>
-          <span>AUTOR   Juan Perez</span>
+          <time datetime="2012/12/10">10 de Diciembre del 2012</time>
         </header>
-        <p>
-          P1 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        </p>
-        <p>P2 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        <p><p><b>Aplicanto propiedad column css3 para dividir párrafos</b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat saepe alias voluptatibus fugiat nemo voluptates officia omnis praesentium quidem ea atque neque molestias itaque quia porro id sapiente aliquid cumque?</p>
         <aside>
-          <a href="#">ASIDE ipsum dolor sit am</a>
+          <a href="#">Aside...</a>
         </aside>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <footer>PIE Todos los derechos reservados</footer>
+        <footer role="contentinfo">
+          <p>Autor: Pdro perez</p>
+        </footer>
       </article>
       <article>
         <header>
           <hgroup>
-            <h1>Titulo Articulo 2</h1>
+            <h1>Curso de HTML5/CSS3</h1>
+            <h2>Subtitulo</h2>
           </hgroup>
-          <time datetime="2012/12/12">FECHA 3 de Diciembre 2000</time>
-          <span>AUTOR Juan Perez</span>
+          <time datetime="2012/12/10">10 de Diciembre del 2012</time>
         </header>
-        <p>
-          P1 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        </p>
-        <p>
-          P2 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        </p>
-        <footer>PIE Todo los redechos reservados</footer>
+        <p><b>Aplicanto propiedad column css3 para dividir párrafos</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat saepe alias voluptatibus fugiat nemo voluptates officia omnis praesentium quidem ea atque neque molestias itaque quia porro id sapiente aliquid cumque?</p>
+        <footer>
+          <p>Autor: Pedro perez</p>
+        </footer>
       </article>
 
-      <!-- formulario -->
-      <section>
+      <section class="formularios">
         <header>
-          <h3>Formulario en html5</h3>
+          <h3> Formularios en HTML5!! </h3>
         </header>
-        <form action="#" method="post">
+
+        <form id="formualariohtml5" action="#" method="post">
+          
           <fieldset>
-            <legend>Titulo del Form</legend>
+            <legend>
+              Formulario
+            </legend>
+
+            <div class="errores"></div>
 
             <div class="campo">
               <label for="nombre">Nombre</label>
-              <input type="text" id="nombre" name="nombre"></div>
+              <input required="true" type="text" id="nombre" name="nombre">
+            </div>
 
             <div class="campo">
               <label for="correo">Correo</label>
-              <input type="email" id="correo" name="correo"></div>
+              <input required placeholder="prueba@gmail.com" type="email" id="correo" name="correo">
+            </div>
 
-            <div>
+            <div class="campo">
               <label for="telefono">Telefono</label>
-              <input type="tel" id="telefono" name="telefono"></div>
-            <div>
+              <input type="tel" id="telefono" name="telefono">
+            </div>
 
+            <div class="campo">
               <label for="edad">Edad</label>
-              <input type="number" min="18" max="30" step="2" id="edad" name="edad"></div>
-            <div>
+              <input type="number" min="18" max="24" step="0.5" id="edad" name="edad">
+            </div>
+
+            <div class="campo">
               <label for="cantidad">Cantidades</label>
-              <input type="range" min="0" max="10" id="cantidad" name="cantidad"></div>
-              <div>
-                <label for="autocompletado">autocompletado</label>
-                <datalist>
-                  
-                </datalist>
-              </div>
+              <input type="range" min="0" max="10" step="0.5" id="cantidad" name="cantidad">
+              <span id="numero_cantidad"></span>
+            </div>
 
-            <div class="action">
-              <input type="submit" value="Guardar o Enviar"></div>
+            <div class="campo">
+              <label for="fecha"> Fecha </label>
+              <input type="date" id="fecha" name="fecha">
+            </div>
 
+            <div class="campo">
+              <label for="direccion">Direccion Web</label>
+              <input type="url" id="direccion" name="direccion">
+            </div>
+
+            <div class="campo">
+              <label for="autocompletado">Autocompletado</label>
+              <input list="browsers">
+
+              <datalist id="browsers">
+                <option value="IE">Internet Explorer</option>
+                <option value="Firefox">1.5</option>
+                <option value="Firefox">1.2</option>
+                <option value="Chrome">Chrome 2</option>
+                <option value="Opera">Opera 2</option>
+                <option value="Safari">Safari 2</option>
+              </datalist>
+            </div>
+
+            <div class="actions">
+              <input type="submit" value="Guardar, Procesar, Enviar">
+            </div>
           </fieldset>
 
         </form>
-        <!-- fin formulario -->
-        <footer> <b>Nota</b>
-          de pie de pagina los form no son soportados por browser antiguas IE6
+
+        <footer>
+          <p><b>NOTA</b>: Los formularios en HTML5 no son soportados por los browser antiguos (IE), pero si por todos los dispositivos moviles y browser modernos</p>
         </footer>
       </section>
-      <footer role="contentinfo">FOOTER</footer>
-    </section>
 
-    <!--sidebar -->
-
+      <footer>
+        <p><b>Nota:</b> Pie de pagina genneral</p>
+      </footer>
+    </section> 
+    <!-- #main -->
+  
     <section id="sidebar" role="complementary">
       <header>
-        <hgroup>
-          <h1>Titulo Sidebar</h1>
-        </hgroup>
+        <h2>Navegacion Sidebar</h2>
       </header>
       <nav role="navigation">
         <ul>
-          <li>
-            lista 1
-            <br>
-            <a href="#"></a>
-          </li>
-          <li>
-            lista 2
-            <br>
-            <a href="#"></a>
-          </li>
-          <li>
-            lista 3
-            <br>
-            <a href="#"></a>
-          </li>
+          <li><a href="#">enlaces</a></li>
+          <li><a href="#">enlaces</a></li>
+          <li><a href="#">enlaces</a></li>
+          <li><a href="#">enlaces</a></li>
+          <li><a href="#">enlaces</a></li>
         </ul>
       </nav>
-      <img src="http://placehold.it/140x100"></section>
-    <!--fin sidebar -->
-    <!-- pie -->
+      <img src="http://placehold.it/140x100">
+    </section>
+    <!-- #sidebar -->
+  
     <footer class="footer">
-      <p>PIE SITE de pagina del site</p>
+      <p>Todos los derechos reservados</p>
     </footer>
   </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+  <!-- Form tools: Dateinput, Rangeinput and Validator. No jQuery library. ( Kb) -->
+  <script type="text/javascript" src="js/jquery.tools.min.js"></script>
+
+  <script src="http://html5form.googlecode.com/svn/trunk/jquery.html5form-1.5-min.js"></script>
+
+  <script src="js/modernizr.js"></script>
+
+
+  <script type="text/javascript" src="js/dia3.js"></script>
+
 </body>
 </html>
